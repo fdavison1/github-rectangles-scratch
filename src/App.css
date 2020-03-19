@@ -1,20 +1,26 @@
 .box {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   background: lightgray;
   margin: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: gray;
+  color: white;
+  font-size: .75rem;
 }
 
 .container {
+  margin: 0 auto;
   border: solid red;
   padding: 50px;
-  width: 500px;
   display: grid;
   grid-template-columns: repeat(7, .01fr);
   grid-template-rows: repeat(7, auto);
   grid-auto-flow: column;
+  justify-content: center;
+}
+
+.white {
+  background: white;
 }

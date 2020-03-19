@@ -10,20 +10,18 @@ export const Rectangles = () => {
         return box
     }
 
+    const april = 30;
+    
     return (
         <div>
-            <p>April</p>
             <div className='container'>
-                <div className="box"></div>
-                <div className="box"></div>
+                <div className="box white"></div>
+                <div className="box white"></div>
                 {rectangles().map(rectangle => {
                     return (
                     <div className="box">{rectangle}</div>
                     )
                 })}
-            <div className="box">1</div>
-            <div className="box">2</div>
-            <div className="box">3</div>
             </div>
         </div>
     )
