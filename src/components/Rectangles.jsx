@@ -1,5 +1,5 @@
 import React from 'react';
-import {April, May} from './Months'
+import {April, May, June, July, August, September, October, December, November} from './Months'
 
 export const Rectangles = () => {
 
@@ -16,6 +16,13 @@ export const Rectangles = () => {
 
             <April />
             <May />
+            <June />
+            <July />
+            <August />
+            <September />
+            <October />
+            <November />
+            <December />
            
         </div>
     )
