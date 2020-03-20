@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Rectangles from './components/Rectangles'
+import Header from './components/Header'
+import Year from './components/Year'
 
 function App() {
   return (
     <div className="App">
-      <Rectangles />
+      <Header />
+      <Year />
+      <hr/>
     </div>
   );
 }

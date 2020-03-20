@@ -1,17 +1,24 @@
 .box {
-  height: 25px;
-  width: 25px;
-  background: lightgray;
+  box-sizing: border-box;
+  height: 23px;
+  width: 23px;
+  background: rgb(235, 237, 240);
   margin: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: .75rem;
+  /* border: solid 1px rgb(235, 237, 240); */
+}
+
+.box:hover {
+  border: solid 1px lightgray;
+  color: lightgray;
+  cursor: pointer;
 }
 
 .container {
-  /* border: solid red; */
   padding: 10px 5px;
   display: grid;
   grid-template-columns: repeat(7, .01fr);
@@ -28,5 +35,27 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 100px;
+  padding: 45px;
+}
+
+.App {
+  text-align: center;
+}
+
+#eighteen {
+  background: #239a3b;
+  background: #7bc96f;
+}
+
+#nineteen {
+  background: rgb(25, 97, 39);
+  background: #c6e48b;
+}
+
+header {
+  height: 25px;
+}
+
+hr {
+  border: solid .65px rgb(235, 237, 240);
 }
